@@ -1,5 +1,5 @@
 {
-  "name": "goit-nodejs-hw-1",
+  "name": "node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,19 +8,14 @@
     "start": "node index",
     "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Viktoriia181818/goit-nodejs-hw-1.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Viktoriia181818/goit-nodejs-hw-1/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   },
-  "homepage": "https://github.com/Viktoriia181818/goit-nodejs-hw-1#readme",
   "dependencies": {
-    "nanoid": "^4.0.1",
-    "nodemon": "^2.0.21",
-    "yargs": "^17.7.1"
+    "commander": "^10.0.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
   }
 }
